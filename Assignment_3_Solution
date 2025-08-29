@@ -1,0 +1,76 @@
+Market Sales Analysis for Client ABC 
+
+PROBLEM STATEMENT--->
+
+The client ABC is a US based large retailer of apparel and accessories. ABC management is planning to expand their business by opening more shops in different locations across the US.
+Details of the existing shops are available in the data source shared. Perform the necessary data analysis and summarize the insights to answer the questions listed below.
+
+Data Exploration
+Dataset          
+The data contains the sales of and other characteristics of 691 stores from 2015 to 2020. The sales column corresponds to average monthly sales at the store during this period.
+
+Dataset: DS Internship – EDA – Data.xlsx
+
+
+Data Analysis and Insights Generation
+      
+Please analyse the data to answer the following questions: 
+
+1.	Initial Exploration: 
+a.	Find total sales by year.
+b.	Number of stores opened in the year 1991.
+c.	How many stores were remodelled during this period? (Consider all types of remodelling)
+d.	Find the direct relationship (if any) between Sales and total sq. ft.
+e.	Which Super division is most profitable?
+f.	How many stores are active as of today?
+g.	Which super division has more sq. ft on an average across all the stores?
+
+2.	Advanced Insights: 
+a.	What are the top 3 potential candidate states to consider for opening a new store?
+b.	What is the best time of the year to consider opening a store?
+c.	Are there any “outlet-type” effects towards store closures?
+
+
+
+SOLUTIONS--->
+
+1. Initial Exploration
+
+1a. Total Sales by Year (2015–2020):
+2015 -- $1.63B
+2016 -- $1.84B
+2017 -- $1.65B
+2018 -- $1.49B
+2019 -- $1.47B
+2020 -- $65.1M (partial year data)
+
+1b. Stores opened in 1991: 4 stores
+
+1c. Stores remodeled (any type): 830 stores
+
+1d. Relationship between Sales & Store Size:
+Correlation = 0.14 --> very weak positive relationship (store size does not strongly drive sales).
+
+1e. Most profitable Super Division: GIRLS (~ $3.57B in sales)
+
+1f. Active stores (no close date): 678 stores
+
+1g. Super Division with largest average sq. ft.: KIDS (~ 6,345 sq. ft. per store)
+
+
+
+2. Advanced Insights
+
+2a. Top 3 potential candidate states for opening a new store (highest average sales):
+E4 -- Avg. Sales ≈ $58,183
+B6 -- Avg. Sales ≈ $50,045
+B5 -- Avg. Sales ≈ $49,776
+
+2b. Best time of the year to open a store:
+December (highest average monthly sales ~ $63,393)
+
+2c. Outlet-type effects on store closures:
+Outlet -- Closure rate 33.6%
+Strip -- Closure rate 23.4%
+Mall -- Closure rate 9.4%
+This shows Outlet-type stores are more prone to closure, while Mall-based stores are the most stable.
